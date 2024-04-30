@@ -1,0 +1,104 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Cambio de fondo blanco a negro */
+}
+
+.container {
+    color:#e0f901;
+    width: 90%;
+    height: 150px;
+    margin: 100 auto;
+    padding: 170px 0;
+}
+
+header {
+    background-color: #0e0b0b;
+    color: #e0f901;
+    text-shadow: 1px -1px 0 #050303;
+    text-align: center;
+    padding: 100px 0;
+    background: url("https://cdn.pixabay.com/photo/2022/02/27/06/33/man-7036709_1280.jpg");
+}
+
+.btn {
+    display: inline-block;
+    background-color: #e0f901;
+    color: #050303;
+    padding: 10px 20px;
+    text-decoration: wavy;
+    border-radius: 10px;
+    border: 1px solid #050303;
+    transition: background-color 1s;
+}
+
+header h1 {
+    font-size: 4.5em;
+}
+
+.btn:hover {
+    background-color: #dbc605;
+}
+
+section {
+    padding: 50px 50;
+}
+
+h2 {
+    text-align: center;
+}
+
+.caracteristica {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.caracteristica h3 {
+    font-size: 1.5em;
+}
+
+.testimonio {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.testimonio p {
+    font-style: italic;
+}
+
+.testimonio cite {
+    font-weight: bolder;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"]:hover {
+    background-color: #e0f901;
+}
+
+button[type="submit"] {
+    background-color: #e0f901;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
